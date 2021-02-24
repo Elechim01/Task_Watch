@@ -64,7 +64,6 @@ struct ViewMemo: View {
     }
     func Rating( memo : Memo){
          memo.rating.toggle()
-        print("memo rating \(memo.rating)")
         statorating = memo.rating
         do{
            try  context.save()
